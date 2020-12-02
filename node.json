@@ -1,0 +1,29 @@
+{
+	"category": "BLE",
+	"name": "BLEStringSerial",
+	"inputs": 1,
+	"outputs": 1,
+	"parameters": [
+		{
+			"name": "Advertising Name",
+			"type": "string",
+			"default": "\"NBLOCKS-BLE\"",
+			"options": [],
+			"value": "\"NBLOCKS-BLE\""
+		}
+	],
+	"labels": {
+		"input": ["In"],
+		"output": ["Out"]
+	},
+	"schematic_pins": {
+		"inputs": [
+			1
+		],
+		"outputs": [
+			2
+		]
+	},
+	"repository": "https://github.com/nblocksStudioNodes/nblocks_blestringserial",
+	"revision": ""
+}
